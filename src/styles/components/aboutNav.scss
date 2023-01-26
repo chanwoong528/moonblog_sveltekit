@@ -1,0 +1,10 @@
+.about-navbar {
+  > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    > li {
+      margin: 10px;
+    }
+  }
+}

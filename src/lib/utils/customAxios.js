@@ -23,7 +23,6 @@ customAxios.interceptors.request.use((config) => {
 
 
 });
-
 customAxios.interceptors.response.use(
     async (response) => {
         return response;
@@ -44,6 +43,5 @@ customAxios.interceptors.response.use(
         return Promise.reject(error);
     }
 );
-
 
 export default customAxios;
