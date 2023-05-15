@@ -1,0 +1,16 @@
+$text-color-bl: #111;
+$text-color-da: #fff;
+
+$text-fs-content: 14px;
+$text-color-bl: #111;
+$text-fs-btn-link: 16px;
+$text-fw-btn-link: 900;
+$text-lh-btn-link: 20px;
+
+@mixin btnLinkFontStyle() {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: $text-color-bl;
+  font-size: $text-fs-btn-link;
+  font-weight: $text-fw-btn-link;
+  line-height: $text-lh-btn-link;
+}

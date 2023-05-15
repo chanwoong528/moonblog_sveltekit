@@ -3,7 +3,7 @@
   import "../styles/global.scss";
 </script>
 
-<GNB />
-<main>
+<main class="main-container">
+  <GNB />
   <slot />
 </main>

@@ -1,6 +1,17 @@
 @import "./reset";
+@import "./variables";
 
 /**components*/
 @import "./components/gnb.scss";
 @import "./components/aboutNav.scss";
 /**components*/
+
+/**pages*/
+@import "./pages/main.scss";
+/**pages*/
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+}

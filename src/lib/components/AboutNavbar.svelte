@@ -1,13 +1,13 @@
-<nav class={"about-navbar"}>
+<nav class="about-navbar">
   <ul>
     <li>
-      <a href="/about/me">me</a>
+      <a href="/about/me">Chanwoong Moon</a>
     </li>
     <li>
-      <a href="/about/stack">tech stacks</a>
+      <a href="/about/stack">Resume</a>
     </li>
     <li>
-      <a href="/about/project">projects</a>
+      <a href="/about/project">Projects</a>
     </li>
   </ul>
 </nav>
